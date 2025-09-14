@@ -8,3 +8,6 @@ def analyze_string(string):
         print(f"String {string} in lowercase")
     else:
         print(f"String {string} is mixed")
+
+def to_uppercase(string):
+    return string.upper()
