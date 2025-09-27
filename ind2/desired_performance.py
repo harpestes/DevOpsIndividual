@@ -7,6 +7,7 @@ class DesiredPerformance(Performance):
         super().__init__(subjects, desired_grades)
 
     def average_grade(self) -> float:
-        if not self.__grades:
+        grades = super().get_grades()
+        if not grades:
             return 0
-        return sum(self.__grades) / len(self.__grades)
+        return sum(grades) / len(grades)
