@@ -14,7 +14,7 @@ class StudentData:
             "student": {
                 "full_name": self.__student.get_full_name(),
                 "group": self.__student.get_group(),
-                "date_of_birth": self.__student.get_date_of_birth(),
+                "date_of_birth": self.__student.get_date_of_birth().isoformat(),
             },
             "real_performance": {
                 "subjects": self.__real_performance.get_subjects(),
