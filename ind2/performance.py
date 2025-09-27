@@ -10,3 +10,9 @@ class Performance(ABC):
     @abstractmethod
     def average_grade(self) -> float:
         pass
+
+    def get_subjects(self) -> List[str]:
+        return self.__subjects
+
+    def get_grades(self) -> List[int]:
+        return self.__grades
