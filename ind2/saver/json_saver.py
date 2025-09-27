@@ -1,7 +1,7 @@
 import json
 from typing import List
 
-from ind2.data_saver import DataSaver
+from ind2.saver.data_saver import DataSaver
 
 
 class JsonSaver(DataSaver):
