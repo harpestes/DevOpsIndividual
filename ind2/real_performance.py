@@ -1,9 +1,8 @@
-from typing import List
 from ind2.performance import Performance
 
 
 class RealPerformance(Performance):
-    def __init__(self, subjects: List[str], real_grades: List[int]):
+    def __init__(self, subjects: list[str], real_grades: list[int]):
         super().__init__(subjects, real_grades)
 
     def average_grade(self) -> float:

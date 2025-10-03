@@ -1,9 +1,8 @@
 from abc import ABC, abstractmethod
-from typing import List
 
 
 class Performance(ABC):
-    def __init__(self, subjects: List[str], grades: List[int]):
+    def __init__(self, subjects: list[str], grades: list[int]):
         self.__subjects = subjects
         self.__grades = grades
 
@@ -11,8 +10,8 @@ class Performance(ABC):
     def average_grade(self) -> float:
         pass
 
-    def get_subjects(self) -> List[str]:
+    def get_subjects(self) -> list[str]:
         return self.__subjects
 
-    def get_grades(self) -> List[int]:
+    def get_grades(self) -> list[int]:
         return self.__grades
