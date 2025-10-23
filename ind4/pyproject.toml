@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ind4"
+version = "0.1.0"
+description = "Simple Python-package example"
+authors = [{name="Andrii Dykalo", email="st01234587@stud.duikt.edu.ua"}]
+readme = "README.md"
+requires-python = ">=3.8"
